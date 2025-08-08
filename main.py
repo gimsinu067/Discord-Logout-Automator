@@ -16,3 +16,5 @@ response = requests.post("https://discord.com/api/v9/auth/logout", headers=heade
 
 if response.status_code == 204:
     print(response.json())
+else: 
+    print(f"Failed to fetch data: {response.status_code}")

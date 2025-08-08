@@ -1,0 +1,1 @@
+# Discord-Logout-Automator
